@@ -1,0 +1,61 @@
+body{
+background:#05070d;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#02040a;
+box-shadow:0 0 20px #00bfff;
+}
+
+nav a{
+color:#00bfff;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+font-size:50px;
+text-shadow:0 0 20px #00bfff;
+}
+
+section{
+padding:60px;
+text-align:center;
+}
+
+#project-container{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:#0b0f1a;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 15px #00bfff;
+width:250px;
+}
+
+button{
+background:#00bfff;
+border:none;
+padding:10px;
+color:white;
+cursor:pointer;
+}
